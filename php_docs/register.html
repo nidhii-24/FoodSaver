@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodSaver - Register</title>
+
+    <!-- Favicon, CSS & JS -->
+    <link rel="icon" href="../assets/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/register.css">
+    <script src="../js/client.js" defer></script>
+
+    <!-- Font Awesome icons CDN -->
+    <script src="https://use.fontawesome.com/4e51920be5.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light" onload="getRegister()">
+
+    <section class="container">
+        <h1 class="center">REGISTER NOW</h1>
+
+        <div id="user-info"></div>
+
+        <form action="register.php" class="form-container" method="POST">
+
+            <p><b>Please enter your organization's name:</b></p>
+            <input type="text" name="name-input" placeholder="Enter organization (Charity/Restaurant) name" />
+
+            <p><b>Please register as charity or restaurant:</b></p>
+            <select name="user-type">
+                <option value="" disabled selected>Select user type here</option>
+                <option value="charity">Charity</option>
+                <option value="restaurant">Restaurant</option>
+            </select>
+
+            <p><b>Please provide a description about your charity/restaurant:</b></p>
+            <textarea name="description-input" placeholder="Enter organization description"></textarea>
+
+            <p><b>Please provide an address to your location:</b></p>
+            <textarea name="location-input" placeholder="Enter organization's address"></textarea>
+
+            <input type="submit" class="register-btn" value="Register">
+        </form>
+    </section>
+
+</body>
+
+</html>
