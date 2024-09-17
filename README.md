@@ -37,10 +37,10 @@
 
 To run "Food Saver" locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Pratyush-Arora/FoodSaver.git`
-2. Navigate to the project directory: `cd FoodSaver`
-3. Set up a local server or deploy on your preferred web server.
-4. Access the application through your web browser.
+
+1. Navigate to the project directory: `cd FoodSaver`
+2. Set up a local server or deploy on your preferred web server.
+3. Access the application through your web browser.
 
 ## Usage
 
